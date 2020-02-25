@@ -1,0 +1,15 @@
+# ninja log v5
+12	6622	0	CMakeFiles/udpsocket.dir/udp_socket_jni.c.o	f059656bcb93f981
+6626	7865	0	C:/Users/Karan/Desktop/EdgeApp-(2)/EdgeApp-master/android_client/app/build/intermediates/cmake/debug/obj/arm64-v8a/libudpsocket.so	6da0980adf071cf0
+263	7115	0	CMakeFiles/object_tracker.dir/object_tracking/time_log.cc.o	b6ea5f5b71d7c737
+312	7227	0	CMakeFiles/object_tracker.dir/object_tracking/utils_neon.cc.o	741ca0cf5ebdadda
+242	7342	0	CMakeFiles/object_tracker.dir/object_tracking/object_detector.cc.o	a7b0a54ed9d48ce0
+303	7467	0	CMakeFiles/object_tracker.dir/object_tracking/optical_flow.cc.o	7fe7b50be59e069f
+96	7531	0	CMakeFiles/object_tracker.dir/object_tracking/image_neon.cc.o	7de310df1924628
+59	7538	0	CMakeFiles/object_tracker.dir/object_tracking/keypoint_detector.cc.o	5f2b90a0b3734772
+50	7556	0	CMakeFiles/object_tracker.dir/object_tracking/logging.cc.o	7f19f90eff376951
+3	7621	0	CMakeFiles/object_tracker.dir/object_tracking/frame_pair.cc.o	f18a141e1b0a3afa
+194	7622	0	CMakeFiles/object_tracker.dir/object_tracking/tracked_object.cc.o	d9b44d6e9ace0756
+182	8382	0	CMakeFiles/object_tracker.dir/object_tracking/object_tracker_jni.cc.o	41453542c3b677e9
+286	8899	0	CMakeFiles/object_tracker.dir/object_tracking/object_tracker.cc.o	9e6b38edcc0408bc
+8899	10844	0	C:/Users/Karan/Desktop/EdgeApp-(2)/EdgeApp-master/android_client/app/build/intermediates/cmake/debug/obj/arm64-v8a/libobject_tracker.so	359c8cfda850296f

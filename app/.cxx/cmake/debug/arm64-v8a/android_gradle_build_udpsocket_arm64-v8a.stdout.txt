@@ -1,0 +1,24 @@
+[1/2] Building C object CMakeFiles/udpsocket.dir/udp_socket_jni.c.o
+C:\Users\Karan\Desktop\EdgeApp-(2)\EdgeApp-master\android_client\app\src\main\jni\udp_socket_jni.c:98:28: warning: incompatible pointer types passing 'struct mmsghdr (*)[1000]' to parameter of type 'const struct mmsghdr *' [-Wincompatible-pointer-types]
+    ret = sendmmsg(sock_fd,&msgvec,vlen,0);
+                           ^~~~~~~
+C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\sys/socket.h:322:59: note: passing argument to parameter '__msgs' here
+__socketcall int sendmmsg(int __fd, const struct mmsghdr* __msgs, unsigned int __msg_count, int __flags) __INTRODUCED_IN(21);
+                                                          ^
+C:\Users\Karan\Desktop\EdgeApp-(2)\EdgeApp-master\android_client\app\src\main\jni\udp_socket_jni.c:173:28: warning: incompatible pointer types passing 'struct mmsghdr (*)[1000]' to parameter of type 'const struct mmsghdr *' [-Wincompatible-pointer-types]
+    ret = sendmmsg(sock_fd,&msgvec,mlen,0);
+                           ^~~~~~~
+C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\sys/socket.h:322:59: note: passing argument to parameter '__msgs' here
+__socketcall int sendmmsg(int __fd, const struct mmsghdr* __msgs, unsigned int __msg_count, int __flags) __INTRODUCED_IN(21);
+                                                          ^
+2 warnings generated.
+[2/2] Linking C shared library C:\Users\Karan\Desktop\EdgeApp-(2)\EdgeApp-master\android_client\app\build\intermediates\cmake\debug\obj\arm64-v8a\libudpsocket.so
+Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)
+Target: aarch64-none-linux-android24
+Thread model: posix
+InstalledDir: C:\Users\Karan\AppData\Local\Android\Sdk\ndk\21.0.6113669\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android\4.9.x
+Selected GCC installation: C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\\ld" --sysroot=C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m aarch64linux -shared -o "C:\\Users\\Karan\\Desktop\\EdgeApp-(2)\\EdgeApp-master\\android_client\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libudpsocket.so" "C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24\\crtbegin_so.o" "-LC:\\Users\\Karan\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\9.0.8\\lib\\linux\\aarch64" -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24 -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -LC:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --allow-multiple-definition --whole-archive -soname libudpsocket.so CMakeFiles/udpsocket.dir/udp_socket_jni.c.o -latomic -lm -lgcc -ldl -lc -lgcc -ldl "C:/Users/Karan/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24\\crtend_so.o"
